@@ -20,22 +20,17 @@
         height: 200px;
     }
 
+    h1{
+        display: none;
+    }
+
 }
 
 
 @media (max-width: 510px) {
 
-    .pesquisa {
-        height: 30px;
-        width: 300px;
-        border-radius: 1pc;
-        text-align: center;
-        margin: 40px;
-        font-size: 20px;
-    }
-
     .hq {
-        width: 160px;
+        width: 155px;
         height: 230px;
         margin: 7px 6px;
         padding: 0px;
@@ -72,9 +67,7 @@
         margin-top: 20px;
     }
 
-    h1{
-        display: none;
-    }
+    
     
     /* Exibe apenas as capas que estão no grupo atual */
     .cover-container .cover {
