@@ -14,11 +14,13 @@ body {
 .fundo-familia-sacana{
     background: url('../imagens/fuudo.jpg') center center no-repeat fixed;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .fundo-os-caipiras{
     background: url('../caipiras-imagens/fundo.png') center center no-repeat fixed;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 header {
