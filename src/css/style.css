@@ -14,13 +14,26 @@ body {
 .fundo-familia-sacana{
     background: url('../imagens/fuudo.jpg') center center no-repeat fixed;
     background-size: cover;
-    background-attachment: fixed;
 }
 
 .fundo-os-caipiras{
     background: url('../caipiras-imagens/fundo.png') center center no-repeat fixed;
     background-size: cover;
-    background-attachment: fixed;
+}
+
+.fundo-os-surubas{
+    background: url('../os-surubas-imagens/fundo.png') center center no-repeat fixed;
+    background-size: cover;
+}
+
+.fundo-os-flinstoons{
+    background: url('../os-flinstoons-imagens/fundo.png') center center no-repeat fixed;
+    background-size: cover;
+}
+
+.fundo-narutoon{
+    background: url('../narutoon-imagens/fundo.png') center center no-repeat fixed;
+    background-size: cover;
 }
 
 header {
@@ -102,6 +115,7 @@ div .logo:hover{
 
 .hq img:hover{
     filter: brightness(0.7);
+    transform: scale(1.1);
 }
 
 footer {
