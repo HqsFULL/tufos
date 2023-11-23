@@ -1,0 +1,105 @@
+@media (max-width: 1570px) {
+    .hq {
+        padding: 0;
+        margin: 20px;
+    }
+
+    main {
+        justify-content: center;
+    }
+
+}
+
+@media (max-width: 900px) {
+    .hq {
+        width: 180px;
+        height: 250px;
+    }
+
+    header {
+        height: 200px;
+    }
+
+}
+
+
+@media (max-width: 510px) {
+
+    .pesquisa {
+        height: 30px;
+        width: 300px;
+        border-radius: 1pc;
+        text-align: center;
+        margin: 40px;
+        font-size: 20px;
+    }
+
+    .hq {
+        width: 160px;
+        height: 230px;
+        margin: 7px 6px;
+        padding: 0px;
+    }
+
+    .logo{
+        width: 150px;
+        height: 100px;
+    }
+
+    body {
+        margin: 0;
+    }
+    
+    .wrapper {
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .cover-container {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+    }
+    
+    .cover {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        opacity: 0;
+        transition: opacity 0.5s ease-in-out;
+        margin-top: 20px;
+    }
+
+    h1{
+        display: none;
+    }
+    
+    /* Exibe apenas as capas que estão no grupo atual */
+    .cover-container .cover {
+        display: block;
+        opacity: 1;
+    }
+    
+    button {
+        font-size: 25px;
+        background: none;
+        border: none;
+        cursor: pointer;
+        color: #bababa;
+        transition: color 0.3s ease-in-out;
+    }
+
+
+    
+    /* Adiciona cor à seta ao passar o mouse */
+    button:hover {
+        color: #ff6600;
+    }
+
+    .narutoon{
+        width: 180px;
+        height: 100px;
+    }
+}
