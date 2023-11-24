@@ -36,6 +36,11 @@ body {
     background-size: cover;
 }
 
+.fundo-os-simptoons{
+    background: url('../os-simptoons-imagens/fundo.png') center center no-repeat fixed;
+    background-size: cover;
+}
+
 header {
     display: flex;
     align-items: center;
