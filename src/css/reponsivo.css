@@ -11,6 +11,11 @@
 }
 
 @media (max-width: 900px) {
+
+    .cover {
+        min-width: 100%;
+    }
+
     .hq {
         width: 180px;
         height: 250px;
@@ -28,6 +33,7 @@
 
 
 @media (max-width: 510px) {
+
 
     .hq {
         width: 155px;
@@ -67,9 +73,6 @@
         margin-top: 20px;
     }
 
-    
-    
-    /* Exibe apenas as capas que estão no grupo atual */
     .cover-container .cover {
         display: block;
         opacity: 1;
@@ -83,10 +86,7 @@
         color: #bababa;
         transition: color 0.3s ease-in-out;
     }
-
-
     
-    /* Adiciona cor à seta ao passar o mouse */
     button:hover {
         color: #ff6600;
     }
