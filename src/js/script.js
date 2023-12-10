@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     function getGroupSize() {
         // Determine o número de capas visíveis com base na largura da tela
-        return window.innerWidth >= 768 ? 3 : 1;
+        return window.innerWidth >= 760 ? 3 : 1;
     }
 
     function showCoverGroup() {

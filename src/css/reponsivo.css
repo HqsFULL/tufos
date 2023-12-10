@@ -22,12 +22,12 @@
     }
 
     header {
-        height: 200px;
+        height: 250px;
     }
 
-    h1{
-        display: none;
-    }
+   .titulo{
+    font-size: 21px;
+   }
 
 }
 
@@ -95,4 +95,37 @@
         width: 180px;
         height: 100px;
     }
+}
+    @media (max-width: 769px){ 
+
+    .conteiner-planos {
+        width: 500px;
+        height: 500px;
+        
+    }
+    .texto-planos {
+        font-size: 20px;
+        margin: 15px;
+    
+    }
+
+    .preco{ 
+        font-size: 55px;
+    }
+ 
+    .telegram{
+        font-size: 35px;
+    }
+
+    
+}
+
+@media (max-width: 525px){ 
+
+    .conteiner-planos {
+        width: 310px;
+        height: 500px;
+        
+    }
+
 }
